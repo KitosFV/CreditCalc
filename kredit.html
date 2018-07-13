@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="kredit.js"></script>
+    <a href="index.html">На главную</a>
+    <script>
+      var age = +prompt('Введите ваш возраст.');
+      if(!(age>=18)&&(age<=65)){
+        alert('Извините, выдача кредита невозможна из-за возрастных ограничений.');
+      }else{
+        var T = +prompt('Введите срок кредита.');
+        var Kr = +prompt('Введите размер кредита.');
+      }
+    </script>
+  <table>
+    <tr>
+      <th>№</th>
+      <th>Сумма<br>платежа</th>
+      <th>Тело<br>кредита</th>
+      <th>Проценты</th>
+      <th>Остаток</th>
+      <th>Уменьшение<br>платежа</th>
+    </tr>
+    <script>
+      credit(Kr,T);
+    </script>
+  </table>
+  </body>
+</html>

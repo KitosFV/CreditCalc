@@ -1,0 +1,28 @@
+table{
+  border-collapse: collapse;
+  border:solid;
+  border-width: 2px;
+}
+
+th{
+  border:solid;
+  border-width: 1px;
+  background: grey;
+}
+
+td{
+  border:solid;
+  border-width: 1px;  
+}
+
+.even{
+  background: #b3b3b3;
+}
+
+.odd{
+
+}
+
+.id{
+  text-align: right;
+}
