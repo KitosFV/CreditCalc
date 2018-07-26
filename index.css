@@ -2,6 +2,7 @@ table{
   border-collapse: collapse;
   border:solid;
   border-width: 2px;
+  width: 100%;
 }
 
 th{
